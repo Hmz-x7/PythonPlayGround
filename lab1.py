@@ -49,6 +49,16 @@ peaks = {
 }
 print(peaks["Pacific"])
 
-
+# for loop
 for i in stars :
     print(i)
+
+
+#while loop
+
+i = 5  
+print("++++++++++++++++++++++++++")
+while i <= 100:
+    print(i)
+    i+= 5 
+print("++++++++++++++++++++++++++")
