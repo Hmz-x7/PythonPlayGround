@@ -11,5 +11,6 @@ for line in infile:
     print(line.rstrip(), file=outfile)
 
 print('\nTotal: '+ str(sum), file=outfile)
+
 outfile.close()
 print("output cmoplete !!!!")

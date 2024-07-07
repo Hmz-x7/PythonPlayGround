@@ -62,3 +62,12 @@ while i <= 100:
     print(i)
     i+= 5 
 print("++++++++++++++++++++++++++")
+
+
+
+# note that the value of i is updated so now the value of i is 105 not  5 as expected but way not 
+# 100 as intended  
+
+while i > 0 : 
+    i-=1 
+    print(i)
